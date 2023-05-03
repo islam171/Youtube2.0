@@ -1,0 +1,27 @@
+.VideoItem{
+    width: 100%;
+    height: 90px;
+    display: flex;
+
+    img{
+        height: 100%;
+        width: 170px;
+        border-radius: 10px;
+    }
+}
+
+.content{
+    display: flex;
+    padding: 0 10px;
+    gap: 10px;
+
+    h2{
+        font-size: 14px;
+    }
+    span{
+        font-size: 12px;
+    }
+    p{
+        font-size: 12px;
+    }
+}

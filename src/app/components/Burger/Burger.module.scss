@@ -1,0 +1,40 @@
+.Burger {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+
+    span,
+    span::before,
+    span::after {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 18px;
+        height: 1px;
+        background-color: #222;
+        margin-left: -9px;
+        margin-top: -1px;
+
+    }
+
+    span::before,
+    span::after {
+        content: '';
+        transition: 0.5s;
+    }
+
+    span::before {
+        transform: translateY(-6px);
+    }
+
+    span::after {
+        transform: translateY(6px);
+    }
+
+}
+
+.Burger:hover {
+    background-color: lightgrey;
+    transition: 0.1s;
+}
