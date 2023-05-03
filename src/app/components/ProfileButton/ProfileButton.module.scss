@@ -1,0 +1,18 @@
+.ProfileButton{
+    width: 100px;
+    height: 35px;
+    border: 1px solid gray;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 30px;
+    
+
+    a{
+        color: #065fd4;
+    }
+}
+
+
+.ProfileButton:hover{
+    background-color: #91b6f7;
+}

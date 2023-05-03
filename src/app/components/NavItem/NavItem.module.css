@@ -1,0 +1,13 @@
+.NavItem{
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+.NavItem:hover{
+    background-color: rgba(237, 237, 237, 0.5);
+}

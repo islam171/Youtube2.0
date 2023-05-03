@@ -1,0 +1,63 @@
+.SearchInput{
+    display: flex;
+    gap: 10px;
+}
+.Input{
+    display: flex;
+    position: relative;
+}
+
+.Input>input{
+    width: 500px;
+    height: 40px;
+    border: 1px solid #b5b5b5;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding: 10px;
+    font-size: 18px;
+    
+}
+
+.Input>input:active{
+    border: 1px solid #000;
+}
+
+.Input>input::placeholder{
+    font-size: 18px;
+}
+
+.Input>button{
+    width: 60px;
+    height: 40px;
+    border: 1px solid #b5b5b5;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    cursor: pointer;
+}
+
+.voice{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.voice:hover{
+    background-color: rgb(227, 227, 227);
+
+    transition: 0.1s;
+}
+
+
+.cleanInput{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 65px;
+}
+
+.Input>input:active
+.cleanInput{
+    background-color: aqua;
+}

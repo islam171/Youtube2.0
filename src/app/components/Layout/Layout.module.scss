@@ -1,0 +1,44 @@
+.Layout {
+    position: relative;
+
+    &__header {
+        position: fixed;
+        width: 100%;
+        background-color: #fff;
+        top: 0;
+        left:50%;
+        transform:translateX(-50%);
+        max-width: 1754px;
+        padding-bottom: 15px;
+        
+
+        >div:nth-child(2) {
+            position: relative;
+            left: 15%;
+            background-color: #fff;
+            padding: 0 30px;
+        }
+
+        .Filters {
+            width: 85%;
+        }
+    }
+    &__saidbar{
+        width: 100%;
+        position: fixed;
+        top: 70px;
+        left:50%;
+        transform:translateX(-50%);
+        max-width: 1754px;
+
+        >div{
+            width: 15%;
+        }
+    }
+
+    &__main {
+        margin-top: 100px;
+        margin-left: 15%;
+    }
+
+}
