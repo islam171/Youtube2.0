@@ -14,7 +14,7 @@ const Home = () => {
             <div className={styles.Videos}>
                 {isLoaded ? videos.map(video =>(
                     <VideoItem video={video} key={video.id}/>
-                )) : <div> Loading...</div>}
+                )) : <div> Loading... Hello</div>}
                 
             </div>
         </div>
