@@ -6,6 +6,7 @@ const VideoPlayer = () => {
         <div className={styles.VideoPlayer}>
           <video  controls>
           </video>
+            grfgtr
         </div>
     )
 }
